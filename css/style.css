@@ -1,0 +1,146 @@
+/******************Tag Selector******************/
+body {
+  background-color: #f8f3eb;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #ca5116;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Parisienne', cursive;
+  color: #581c0c;
+  font-size: 5.625rem;
+  margin-bottom: 0;
+}
+header{
+  padding: 28px 0;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.65rem;
+  margin-top: 0;
+  color: #ca5116;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #ca5116;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #f1e3cb;
+  border-width: 7px;
+  width: 5%;
+}
+
+/******************Class Selector******************/
+.top-container {
+  background-color: #ffe8df;
+  width: 100%;
+  padding-top: 100px;
+  font-weight: bold;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.bottom-container {
+background-color: #ffe8df;
+width: 100%;
+padding-top: 50px;
+padding-bottom: 25px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 250px;
+  top: 100px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 350px;
+  bottom: 350px;
+}
+
+.skill-row {
+  width: 45%;
+  line-height: 2;
+  margin: 50px auto 100px auto;
+}
+
+.programming {
+  width: 10rem;
+  height: 10rem;
+  float: left;
+  margin: 0 50px 0 50px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: #f1e3cb;
+}
+
+.graphics {
+  width: 10rem;
+  height: 10rem;
+  float: right;
+  margin: 20px 50px 0 50px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: #f1e3cb;
+}
+
+.profile {
+  width: 30%;
+  margin: auto auto 50px auto;
+  padding-top: 50px;
+  line-height: 2;
+}
+.footer-link{
+  margin: 50px;
+  font-size: 1.25rem;
+  color: #581c0c;
+  text-decoration: none;
+}
+.contact-me{
+  margin: 50px auto 50px auto;
+  width: 50%;
+  line-height: 1.7rem;
+}
+/*
+.btn{
+  font-size: 2rem;
+  background-color: #581c0c;
+  text-decoration: none;
+  color: #ffe8df;
+  padding: 15px;
+}*/
+.btn {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #581c0c 5%, #581c0c 100%);
+	background-color:#581c0c;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffe8df;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
